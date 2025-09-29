@@ -1,0 +1,12 @@
+.orderPlacedMainWrapper,
+.orderPlacedHeader {
+  padding: 0 16px;
+}
+
+.orderPlacedMainWrapper {
+  width: 100%;
+}
+
+.totalList {
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+.logoContainer {
+  display: block;
+  max-width: unset;
+  max-height: unset;
+  min-width: unset;
+}
+
+.logoImage {
+  display: block;
+}

@@ -1,0 +1,9 @@
+CHANGELOG.md
+package.json
+node_modules/
+public/
+coverage/
+.vscode/
+.github/
+.cache/
+__generated__

@@ -3,15 +3,63 @@
   color: #ffffff;
 }
 
-
-:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper)
+  :global(.vtex-button) {
   color: #000000;
   border-color: #000000;
 
   background-color: #ffffff;
 }
 
-:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button):hover {
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper)
+  :global(.vtex-button):hover {
   color: #ffffff;
   background-color: #000000;
+}
+
+:global(.vtex-account__page) :global(svg[fill='#134CD8']) {
+  fill: #000000;
+}
+
+:global(.myo-progress-bar) :global(.bw1) {
+  border-width: 0.125rem;
+}
+
+:global(.vtex-my-orders-packages-0-x-package_product_name) {
+  color: #000000;
+  text-decoration: underline;
+}
+
+:global(.vtex-my-orders-app-3-x-optionDisclaimer) :global(button) {
+  border: none;
+  cursor: pointer;
+}
+
+:global(.vtex-my-orders-app-3-x-optionDisclaimer) :global(button):hover {
+  opacity: 1;
+}
+
+/* order again */
+:global(.vtex-my-orders-app-3-x-orderDetails)
+  > :global(.center)
+  > :global(.w-100.fl.w-60-ns.pv3-ns.pr0)
+  :global(.list)
+  :global(li):first-of-type,
+:global(.vtex-my-orders-app-3-x-orderDetails)
+  > :global(.center)
+  > :global(.w-100.fl.w-60-ns.pv3-ns.pr0)
+  :global(.list)
+  :global(li):first-of-type
+  :global(a) {
+  font-size: 1rem;
+}
+
+:global(.vtex-my-orders-app-3-x-orderDetails)
+  > :global(.center)
+  > :global(.w-100.fl.w-60-ns.pv3-ns.pr0)
+  :global(.list)
+  :global(li):first-of-type
+  :global(a)
+  :global(svg) {
+  top: 4px;
 }

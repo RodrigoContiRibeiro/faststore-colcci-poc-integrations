@@ -1,0 +1,16 @@
+.backButton :global(.vtex-button):hover {
+  color: #ffffff;
+}
+
+.tooltipContainer {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.tooltipContainer::after {
+  border-color: transparent transparent transparent #000000;
+}
+
+.tooltipContainer :global(.c-on-base--inverted) {
+  color: #000000;
+}

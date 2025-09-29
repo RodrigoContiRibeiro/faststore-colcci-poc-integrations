@@ -1,0 +1,17 @@
+:global(.vtex-account__page)
+  :global(.vtex-button.hover-bg-action-secondary):hover {
+  color: #ffffff;
+}
+
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  color: #000000;
+  border-color: #000000;
+
+  background-color: #ffffff;
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button):hover {
+  color: #ffffff;
+  background-color: #000000;
+}
